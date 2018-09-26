@@ -8,11 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class DetailViewController: UIViewController {
+    
+    @IBOutlet weak var outletTextField: UITextField!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        outletTextField.text = String(Singleton.inSingleton.array[Singleton.inSingleton.index])
     }
 
     override func didReceiveMemoryWarning() {

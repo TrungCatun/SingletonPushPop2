@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		87976E36212BB38800E207F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87976E35212BB38800E207F5 /* AppDelegate.swift */; };
-		87976E38212BB38800E207F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87976E37212BB38800E207F5 /* ViewController.swift */; };
+		87976E38212BB38800E207F5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87976E37212BB38800E207F5 /* DetailViewController.swift */; };
 		87976E3B212BB38800E207F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87976E39212BB38800E207F5 /* Main.storyboard */; };
 		87976E3D212BB38800E207F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87976E3C212BB38800E207F5 /* Assets.xcassets */; };
 		87976E40212BB38800E207F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87976E3E212BB38800E207F5 /* LaunchScreen.storyboard */; };
+		87976E48212BB3FB00E207F5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87976E47212BB3FB00E207F5 /* TableViewController.swift */; };
+		87976E4A212BB4D200E207F5 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87976E49212BB4D200E207F5 /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		87976E32212BB38800E207F5 /* SingletonPushPop2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingletonPushPop2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87976E35212BB38800E207F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		87976E37212BB38800E207F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87976E37212BB38800E207F5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		87976E3A212BB38800E207F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87976E3C212BB38800E207F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87976E3F212BB38800E207F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87976E41212BB38800E207F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87976E47212BB3FB00E207F5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		87976E49212BB4D200E207F5 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				87976E35212BB38800E207F5 /* AppDelegate.swift */,
-				87976E37212BB38800E207F5 /* ViewController.swift */,
+				87976E37212BB38800E207F5 /* DetailViewController.swift */,
+				87976E47212BB3FB00E207F5 /* TableViewController.swift */,
+				87976E49212BB4D200E207F5 /* Singleton.swift */,
 				87976E39212BB38800E207F5 /* Main.storyboard */,
 				87976E3C212BB38800E207F5 /* Assets.xcassets */,
 				87976E3E212BB38800E207F5 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87976E38212BB38800E207F5 /* ViewController.swift in Sources */,
+				87976E38212BB38800E207F5 /* DetailViewController.swift in Sources */,
+				87976E4A212BB4D200E207F5 /* Singleton.swift in Sources */,
+				87976E48212BB3FB00E207F5 /* TableViewController.swift in Sources */,
 				87976E36212BB38800E207F5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
